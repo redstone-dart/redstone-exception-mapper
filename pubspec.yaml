@@ -1,0 +1,15 @@
+name: redstone_exception_mapper
+description: A plugin for Redstone.dart to map unhandled exceptions to shelf Responses.
+version: 0.0.1
+author: Joel Trottier-Hebert <iamquebecois@gmail.com>
+homepage: http://redstonedart.org
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+
+dependencies:
+  shelf: "^0.6.4+2"
+  redstone: "^0.6.1"
+
+dev_dependencies:
+  test: '>=0.12.0 <0.13.0'
